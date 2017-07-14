@@ -17,6 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".InsertRekActivity"
+            android:configChanges="orientation|screenSize"></activity>
     </application>
 
 </manifest>

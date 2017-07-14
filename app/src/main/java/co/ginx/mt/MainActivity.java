@@ -1,6 +1,7 @@
 package co.ginx.mt;
 
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Build;
@@ -52,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
         mBtnInsertRek.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent in = new Intent(getApplicationContext(),InsertRekActivity.class);
+                startActivity(in);
             }
         });
         mBtnGetRek.setOnClickListener(new View.OnClickListener() {
